@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <h1>Validate Form Using JavaScript</h1><hr>
+            <div class="input-group">
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" name="firstname">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="lastname">Lastname</label>
+                <input type="text" id="lastname" name="lastname">
+                <div class="error">Last name must be only string without white space</div>
+            </div>
+                <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                <div class="error">email add must be valid with @ symbol</div>
+                </div>   
+                <div class="input-group">
+                <label for="phone number">Phone number</label>
+                <input type="text" id="phone number" name="phone number">
+                <div class="error">Mobile no must have 10 digits</div>
+                </div>
+                
+                <div class="input-group"></div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="error">password must have atleast one Uppercase,<br>lowercase,digit&special character</div>
+                </div>               
+               
+                <div class="input-group">
+                <label for="cpassword">confirm password</label>
+                <input type="PASSWORD" id="cpassword" name="cpassword" placeholder="confirm password">
+                <div class="error">confirm password request</div>
+            </div>
+            <button type="submit">SUBMIT</button>
+
+       </form>
+    </div>
+</body>
+</html>
